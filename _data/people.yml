@@ -1,43 +1,10 @@
-luisceze:
-    display_name: "Luis Ceze"
-    webpage: "https://homes.cs.washington.edu/~luisceze/"
-    github: luisceze
+profx:
+    display_name: "Professor X"
+    webpage: "http://en.wikipedia.org/wiki/Professor_X"
+    github: profx
     role: faculty
     bio: |
-        Luis is an Associate Professor at UW-CSE. When he is not in his office
-        (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
-        restaurant around Seattle. Ask him about the movie Mamma Mia.
-djg:
-    display_name: "Dan Grossman"
-    webpage: "https://homes.cs.washington.edu/~djg/"
-    role: faculty
-    bio: |
-        Dan is an Associate Professor at UW-CSE. His research background is
-        programming language design and implementation, particularly for
-        improving software quality. In Sampa, he's mostly involved with the
-        DMP and OSHA projects. To get Dan excited about a non-computer-science
-        topic, try ice hockey (playing or watching), non-fiction books, live
-        theatre, hiking, or his nephew.
-oskin:
-    display_name: "Mark Oskin"
-    webpage: "https://homes.cs.washington.edu/~oskin/"
-    role: faculty
-    bio: |
-        Mark is an Associate Professor at UW-CSE.
-karin:
-    display_name: "Karin Strauss"
-    webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
-    role: faculty
-    bio: |
-        Karin is a Researcher at Microsoft Research in Redmond, WA. She is
-        also an Affiliate Assistant Professor at UW-CSE.
-eggers:
-    display_name: "Susan Eggers"
-    webpage: "http://homes.cs.washington.edu/~eggers/"
-    role: faculty
-    bio: |
-        Susan is an Emeritus Professor at UW-CSE.
-
+        Professor X is the leader and founder of X-Men. 
 melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
@@ -46,108 +13,18 @@ melody:
         Melody is our Program Director. She actually makes magic stuff happen.
         And beware of the Spoon of Death.
 
-ransford:
-    display_name: "Ben Ransford"
-    webpage: "https://home.cs.washington.edu/~ransford/"
-    github: ransford
+wolverine:
+    display_name: "Wolverine"
+    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
+    github: wolverine
     role: postdoc
 
-andreolb:
-    display_name: "Andre Baixo"
-    role: grad
-katelin:
-    display_name: "Katelin Bailey"
-    webpage: "https://homes.cs.washington.edu/~katelin/"
-    role: grad
-tbergan:
-    display_name: "Tom Bergan"
-    webpage: "https://homes.cs.washington.edu/~tbergan/"
-    role: grad
-bholt:
-    display_name: "Brandon Holt"
-    webpage: "https://homes.cs.washington.edu/~bholt/"
-    role: grad
-vlee2:
-    display_name: Vincent Lee
-    webpage: "http://homes.cs.washington.edu/~vlee2/"
-    role: grad
-emackay:
-    display_name: Eric Mackay
-    webpage: "http://homes.cs.washington.edu/~emackay/"
-    role: grad
-moreau:
-    display_name: "Thierry Moreau"
-    webpage: "http://homes.cs.washington.edu/~moreau/"
-    role: grad
-bdmyers:
-    display_name: "Brandon Myers"
-    webpage: "https://homes.cs.washington.edu/~bdmyers/"
-    role: grad
-nelson:
-    display_name: "Jacob Nelson"
-    webpage: "https://homes.cs.washington.edu/~nelson/"
-    role: grad
-miker:
-    display_name: "Michael Ringenburg"
-    webpage: "http://homes.cs.washington.edu/~miker/"
-    role: grad
-asampson:
-    display_name: "Adrian Sampson"
-    webpage: "https://homes.cs.washington.edu/~asampson/"
-    github: sampsyo
-    role: grad
-bpw:
-    display_name: "Benjamin Wood"
-    webpage: "https://homes.cs.washington.edu/~bpw/"
+storm:
+    display_name: "Storm"
+    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
     role: grad
 
-lucia:
-    display_name: "Brandon Lucia"
+jean:
+    display_name: "Jean Grey"
     role: alum
     bio: "Ph.D., 2013. Now at Microsoft Research."
-hadi:
-    display_name: "Hadi Esmaeilzadeh"
-    role: alum
-    bio: "Ph.D., 2013. Now faculty at Georgia Tech."
-devietti:
-    display_name: Joe Devietti
-    role: alum
-    bio: "Ph.D., 2012. Now faculty at UPenn."
-fortuna:
-    display_name: Emily Fortuna
-    role: alum
-    bio: "M.S., 2011. Now at Google."
-hunt:
-    display_name: "Nick Hunt"
-    role: alum
-owen:
-    display_name: Owen Anderson
-    role: alum
-    bio: M.S., 2010. Now at Apple.
-angda:
-    display_name: Angda (Andy) Chen
-    role: alum
-    bio: B.S. 2008. Now at Amazon.
-cody:
-    display_name: Cody Schroeder
-    role: alum
-kristian:
-    display_name: Kristian Lieberg
-    role: alum
-
-shaz:
-    display_name: Shaz Qadeer
-    webpage: http://research.microsoft.com/en-us/people/qadeer/
-    bio: "Shaz is a Sr. Researcher at Microsoft Research collaborating with us on the concurrency exceptions project."
-    role: collab
-gribble:
-    display_name: Steve Gribble
-    webpage: http://www.cs.washington.edu/homes/gribble/
-    bio: "Steve is an Associate Professor at UW-CSE. He is collaborating with us on operating system aspects of deterministic multiprocessing."
-    role: collab
-skahan:
-    display_name: Simon Kahan
-    role: collab
-preston:
-    display_name: Preston Briggs
-    role: collab
