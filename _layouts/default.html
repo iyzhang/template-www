@@ -5,14 +5,14 @@
         <title>{{ site.name }}: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ site.base }}/css/sampa.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/group.css" rel="stylesheet">
         <link rel="alternate" type="application/atom+xml" title="Atom"
             href="{{ site.base }}/blog/blog.xml">
     </head>
     <body>
         <div class="container">
           <div class="header">
-            <ul class="nav nav-pills pull-right">
+            <ul class="nav nav-pills">
               {% assign shorturl = page.url | replace:'index.html','' %}
               {% for item in site.navigation %}
                 <li {% if item.link == shorturl %}class="active"{% endif %}>
@@ -22,11 +22,6 @@
                 </li>
               {% endfor %}
             </ul>
-            <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/sampa.png"
-                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
-                    alt="Sampa" id="logo">
-            </a>
           </div>
 
           {% comment %}Liquid is sort of terrible! I think "!= true" is the
