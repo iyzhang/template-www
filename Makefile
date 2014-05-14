@@ -15,12 +15,10 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 	_layouts/default.html
-_site/wacas14/index.html: $(wildcard wacas14/*.md) _config.yml \
-	_layouts/wacas.html
 
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-CSEHOST := bicycle.cs.washington.edu
+HOST := yourwebpage.com
 deploy: clean all
-	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(CSEHOST):/cse/www2/sampa/new
+	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(HOST):www/
